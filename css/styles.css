@@ -1,0 +1,78 @@
+/* Navbar styling */
+.navbar-brand {
+  font-family: "Raleway";
+}
+
+.nav-link:hover {
+  background-color: #F827F6;
+}
+
+.btn-primary.search {
+  background-color: #F827F6;
+}
+
+.btn-primary.search:hover {
+  background-color: #7B0CF5;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  text-align: center;
+}
+
+.carousel-inner img {
+  max-width: 70%;
+  margin: auto;
+  min-height: 200px;
+  max-height: 500px
+}
+
+/* .carousel-control-prev .carousel-control-next  */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F827F6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23F827F6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 75px;
+  height: 75px;
+}
+
+/* following trying to change size of carousel next & previous arrows */
+/* .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 100px;
+  height: 100px;
+} */
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+/* @media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+} */
+
+
+/* following changes coloring of svg on hover (but not what i'm looking for 11-09-20 */
+/* .github:hover {
+  filter: invert(25%) url('images/Octocat13.1.svg');
+} */
+
+.github {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  line-height: 2.25rem;
+  background-color:#f2f2f2;
+  text-align: center;
+  border-radius: 2rem;
+}
+
+.github:hover > svg *,
+.github:hover {
+  background-color: #F827F6;
+  fill: #FFFFFF;
+}
+
